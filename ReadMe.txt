@@ -105,6 +105,8 @@ EZBoards uses
 [https://code.google.com/archive/p/onehttpd/](https://code.google.com/archive/p/onehttpd/)
 - Ben Blamey's when_changed, a file watchdog for Windows.
 [https://github.com/benblamey/when_changed](https://github.com/benblamey/when_changed)
+- Slight edits to the output HTML by Leemarov.
+[https://github.com/leemarov](https://github.com/leemarov)
 
 ### Example Images (full size)
 
