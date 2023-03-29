@@ -1,10 +1,10 @@
-body {background:white; font-family:sans-serif; font-size:150%; margin:0px;}
+body {background:white; font-family:sans-serif; font-size:0%; margin:0px;}
 table {width:100%;}
-th {padding:5px; line-height:100%; font-size:150%;} 
-th.title {background:#222222; color:#FFFFFF}
-tr.header {background:#CCCCEE; font-weight:bold;}
+th {padding:0px; line-height:100%; font-size:150%;} 
+th.title {background:#222222; color:#FFFFFF; font-size:120%;}
+tr.header {background:#CCCCEE; font-weight:bold; font-size:80%;}
 th.stamp {background:#EEEEEE; color:#444444}
-td {padding:5px; line-height:100%; font-size:150%;} 
+td {padding:4px; line-height:100%; font-size:130%;} 
 tr {background:#EEEEEE;}
 tr.odd {background:#EEEEEE;}
 tr.even {background:#DDDDDD;}
@@ -14,14 +14,21 @@ div.page {
   position: relative;
   float: left;
   width: 1024px;
-  height: 2024px;
+  height: 1554px;
   padding: 0px;
-  padding-top: 24px;
-  margin-top: 24px;
+  padding-top: 4px;
+  margin-top: 4px;
 }
 div.section {
   margin: auto;
   width: 96%;
-  padding: 1ex;
-  padding-top: 3ex;
+  padding: 0ex;
+  padding-top: 2ex;
+}
+div.bottom {
+  border: 2px solid #73AD21;
+  position: absolute;
+  top: 70%;
+  height: 30%;
+  width: 100%;
 }
