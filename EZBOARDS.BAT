@@ -45,7 +45,10 @@ IF NOT EXIST %CALLSIGNINI% (
   SET CALLSIGNINI=
 )
 
-taskkill /im openkneeboardapp.exe
+ECHO [33mStopping EZBOARDS related apps[0m
+stop_apps.bat
+ECHO [32mOk.[0m
+
 REM /// Step 1: Generate HTML version of briefing data to briefing.html .
 ECHO [33mGenerating HTML version of briefing data to briefing.html.[0m
 bin\xbrief.exe %BRIEFINGTXT% %CALLSIGNINI% > briefing.html
@@ -110,8 +113,9 @@ REM /// Successful exit.
 :SUCCESS
 ECHO [42m[97mSUCCESS.[0m
 IF "%~1"=="" PAUSE
-cd "C:\Program Files\OpenKneeboard\bin"
-start OpenKneeboardApp.exe
+ECHO [33mStarting EZBOARDS related apps[0m
+start_apps.bat
+ECHO [32mOk.[0m
 EXIT 0
 
 REM /// Exit on error.
