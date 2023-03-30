@@ -61,7 +61,7 @@ REM GOTO SUCCESS
 
 REM /// Step 1.5: Pyboard to add more html
 ECHO [33mPyboards to add more HTML.[0m
-bin\pyboard.exe -f briefing.html -b %BRIEFINGTXT% -j py\airfields.json
+bin\pyboard.exe -f briefing.html -b %BRIEFINGTXT% -j airfields.json
 ECHO [32mOk.[0m
 
 REM /// Step 2: Render the HTML file to briefing.png image.

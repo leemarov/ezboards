@@ -121,7 +121,7 @@ def main():
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument("-f", "--file", type=str, default="../briefing.html")
     arg_parser.add_argument("-b", "--briefing", type=str, default="briefing_test.txt")
-    arg_parser.add_argument("-j", "--airfields", type=str, default="airfields.json")
+    arg_parser.add_argument("-j", "--airfields", type=str, default="../airfields.json")
     args = arg_parser.parse_args(sys.argv[1:])
     edit_html(args.file, args.briefing, args.airfields)
 
