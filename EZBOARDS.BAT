@@ -56,6 +56,11 @@ REM /// If you don't need the kneeboards but just want to have the HTML,
 REM /// you may as well exit here by uncommenting the following line.
 REM GOTO SUCCESS
 
+REM /// Step 1.5: Pyboard to add more html
+ECHO [33mPyboards to add more HTML.[0m
+bin\pyboard.exe -f briefing.html -b %BRIEFINGTXT% -j py\airfields.json
+ECHO [32mOk.[0m
+
 REM /// Step 2: Render the HTML file to briefing.png image.
 ECHO [33mRendering HTML to briefing.png image.[0m
 bin\wkhtmltoimage.exe --width 2048 --height 1554 --disable-smart-width --enable-local-file-access briefing.html briefing.png

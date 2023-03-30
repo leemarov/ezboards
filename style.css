@@ -26,9 +26,12 @@ div.section {
   padding-top: 2ex;
 }
 div.bottom {
-  border: 2px solid #73AD21;
+  border: 2px solid #000000;
+  background: #F6F6F6;
   position: absolute;
-  top: 70%;
-  height: 30%;
-  width: 100%;
+  top: 92%;
+  height: 8%;
+  width: 96%;
+  left: 2%;
+  margin: auto;
 }

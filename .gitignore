@@ -1,3 +1,5 @@
 briefing*
 */env/*
 .idea
+py/dist
+py/build
