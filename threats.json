@@ -1,0 +1,221 @@
+{
+	"SA-2":{
+		"type": "SAM-fixed",
+		"name": "Guideline",
+		"tracking": "radar",
+		"radar_fc": "Fan Song",
+		"rwr": "2",
+		"radar_sa": "Spoon Rest",
+		"range_engage": "15nm/230k",
+		"range_max": "38nm/230k"
+	},
+	"SA-3":{
+		"type": "SAM-fixed",
+		"name": "Goa",
+		"tracking": "radar",
+		"radar_fc": "Low Blow",
+		"rwr": "3",
+		"radar_sa": "Flat Face [F]",
+		"range_engage": "9nm/120k",
+		"range_max": "11nm/120k"
+	},
+	"SA-4":{
+		"type": "SAM-fixed",
+		"name": "Ganef",
+		"tracking": "radar",
+		"radar_fc": "Pat Hand",
+		"rwr": "4",
+		"radar_sa": "Long Track [L]",
+		"range_engage": "18nm/80k",
+		"range_max": "22nm/80k"
+	},
+	"SA-5":{
+		"type": "SAM-fixed",
+		"name": "Gammon",
+		"tracking": "radar",
+		"radar_fc": "Square Pair",
+		"rwr": "5",
+		"radar_sa": "Bar Lock [B]",
+		"range_engage": "53nm/327k",
+		"range_max": "190nm/327k"
+	},
+	"SA-6":{
+		"type": "SAM-mobile",
+		"name": "Gainful",
+		"tracking": "radar",
+		"radar_fc": "Straight Flush",
+		"rwr": "6",
+		"radar_sa": "Flat Face [F]",
+		"range_engage": "10nm/101k",
+		"range_max": "20nm/101k"
+	},
+	"SA-7":{
+		"type": "MANPAD",
+		"name": "Grail",
+		"tracking": "IR",
+		"range_engage": "1.5nm/5k",
+		"range_max": "2nm/12k"
+	},
+	"SA-8":{
+		"type": "SAM-mobile",
+		"name": "Gecko",
+		"tracking": "radar",
+		"radar_fc": "Onboard",
+		"rwr": "8",
+		"radar_sa": "Onboard",
+		"range_engage": "4nm/16k",
+		"range_max": "8.5nm/50k"
+	},
+	"SA-9":{
+		"type": "SAM-mobile",
+		"name": "Gaskin",
+		"tracking": "IR",
+		"radar_fc": "Onboard",
+		"rwr": "",
+		"radar_sa": "Dog Ear [O]",
+		"range_engage": "2nm/14k",
+		"range_max": "3nm/14k"
+	},
+	"SA-10":{
+		"type": "SAM-mobile",
+		"name": "Grumble",
+		"tracking": "radar",
+		"radar_fc": "Flap Lid",
+		"rwr": "10",
+		"radar_sa": "Big Bird [B]",
+		"range_engage": "48nm/276k",
+		"range_max": "54nm/276k"
+	},
+	"SA-11":{
+		"type": "SAM-mobile",
+		"name": "Gadfly",
+		"tracking": "radar",
+		"radar_fc": "Onboard",
+		"rwr": "11",
+		"radar_sa": "Snow Drift [D]",
+		"range_engage": "12nm/90k",
+		"range_max": "20nm/90k"
+	},
+	"SA-13":{
+		"type": "SAM-mobile",
+		"name": "Gopher",
+		"tracking": "IR",
+		"radar_fc": "Onboard",
+		"rwr": "",
+		"radar_sa": "Dog Ear [O]",
+		"range_engage": "2nm/12k",
+		"range_max": "5nm/26k"
+	},
+	"SA-14":{
+		"type": "MANPAD",
+		"name": "Gremlin",
+		"tracking": "IR",
+		"range_engage": "1.6nm/10k",
+		"range_max": "3nm/12k"
+	},
+	"SA-15":{
+		"type": "SAM-mobile",
+		"name": "Gauntlet",
+		"tracking": "radar",
+		"radar_fc": "Onboard",
+		"rwr": "15",
+		"radar_sa": "",
+		"range_engage": "6.5nm/20k",
+		"range_max": "7nm/42k"
+	},
+	"SA-16":{
+		"type": "MANPAD",
+		"name": "Gimlet",
+		"tracking": "IR",
+		"range_engage": "3nm/10k",
+		"range_max": "3.57nm/19k"
+	},
+	"SA-17":{
+		"type": "SAM-mobile",
+		"name": "Grizzly",
+		"tracking": "radar",
+		"radar_fc": "Onboard",
+		"rwr": "17",
+		"radar_sa": "Snow Drift [D]",
+		"range_engage": "16nm/79k",
+		"range_max": "18nm/79k"
+	},
+	"SA-19":{
+		"type": "SAM-mobile",
+		"name": "Grison",
+		"tracking": "IR",
+		"radar_fc": "Onboard",
+		"rwr": "A",
+		"radar_sa": "",
+		"range_engage": "6.5nm/10k",
+		"range_max": "5.7nm/33k"
+	},
+
+	"KS-12":{
+		"type": "AAA",
+		"tracking": "radar/optical",
+		"radar_fc": "Fire Can",
+		"rwr": "A",
+		"range_engage": "5nm/28k",
+		"range_max": "5nm/28k"
+	},
+	"KS-19":{
+		"type": "AAA",
+		"tracking": "radar/optical",
+		"radar_fc": "Fire Can",
+		"rwr": "A",
+		"range_engage": "5nm/33k",
+		"range_max": "5nm/33k"
+	},
+	"S-60":{
+		"type": "AAA",
+		"tracking": "radar/optical",
+		"radar_fc": "Fire Can",
+		"rwr": "A",
+		"range_engage": "3nm/20k",
+		"range_max": "3nm/20k"
+	},
+	"M-1939":{
+		"type": "AAA",
+		"tracking": "optical",
+		"range_engage": "1nm/8k",
+		"range_max": "1nm/8k"
+	},
+	"M-1992":{
+		"type": "AAA-mobile",
+		"tracking": "radar",
+		"radar_fc": "Onboard",
+		"rwr": "A",
+		"range_engage": "2.5nm/10k",
+		"range_max": "2.5nm/14k"
+	},
+	"ZU-23":{
+		"type": "AAA",
+		"tracking": "optical",
+		"range_engage": "2nm/10k",
+		"range_max": "2nm/10k"
+	},
+	"ZPU-2":{
+		"type": "AAA",
+		"tracking": "optical",
+		"range_engage": "1.8nm/10k",
+		"range_max": "1.8nm/14k"
+	},
+	"ZSU-23":{
+		"type": "AAA-mobile",
+		"name": "Shilka",
+		"tracking": "radar",
+		"radar_fc": "Onboard",
+		"rwr": "A",
+		"radar_sa": "Dog Ear [O]",
+		"range_engage": "2nm/10k",
+		"range_max": "3nm/16k"
+	},
+	"ZSU-57":{
+		"type": "AAA-mobile",
+		"name": "Sparka",
+		"tracking": "optical",
+		"range_engage": "3nm/20k",
+		"range_max": "3nm/20k"
+	}
+}
