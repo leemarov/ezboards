@@ -3,3 +3,4 @@ briefing*
 .idea
 py/dist
 py/build
+.spec

@@ -26,11 +26,21 @@ div.section {
   padding-top: 2ex;
 }
 div.bottom {
-  border: 2px solid #000000;
+  #border: 2px solid #000000;
   background: #F6F6F6;
   position: absolute;
-  top: 92%;
-  height: 8%;
+  top: 90%;
+  height: 10%;
+  width: 96%;
+  left: 2%;
+  margin: auto;
+}
+div.bottom2 {
+  #border: 2px solid #000000;
+  background: #F6F6F6;
+  position: absolute;
+  top: 80%;
+  height: 0%;
   width: 96%;
   left: 2%;
   margin: auto;

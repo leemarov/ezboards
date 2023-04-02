@@ -46,7 +46,7 @@ IF NOT EXIST %CALLSIGNINI% (
 )
 
 ECHO [33mStopping EZBOARDS related apps[0m
-stop_apps.bat
+cmd.exe /c stop_apps.bat
 ECHO [32mOk.[0m
 
 REM /// Step 1: Generate HTML version of briefing data to briefing.html .
@@ -61,7 +61,7 @@ REM GOTO SUCCESS
 
 REM /// Step 1.5: Pyboard to add more html
 ECHO [33mPyboards to add more HTML.[0m
-bin\pyboard.exe -f briefing.html -b %BRIEFINGTXT% -j airfields.json
+bin\pyboard.exe -f briefing.html -b %BRIEFINGTXT% -j airfields.json -t threats.json
 ECHO [32mOk.[0m
 
 REM /// Step 2: Render the HTML file to briefing.png image.
@@ -114,7 +114,7 @@ REM /// Successful exit.
 ECHO [42m[97mSUCCESS.[0m
 IF "%~1"=="" PAUSE
 ECHO [33mStarting EZBOARDS related apps[0m
-start_apps.bat
+cmd.exe /c start_apps.bat
 ECHO [32mOk.[0m
 EXIT 0
 
