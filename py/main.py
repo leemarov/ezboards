@@ -38,21 +38,25 @@ def parse_briefing(briefing_lines):
     global parsed_briefing
     pb = {}
 
-    def lines_between(pt1, pt2):
-        return briefing_lines[briefing_lines.index(pt1 + '\n') + 1:briefing_lines.index(pt2 + '\n')]
+    def lines_between(b, e):
+        try:
+            return briefing_lines[briefing_lines.index(b + '\n') + 1:briefing_lines.index(e + '\n')]
+        except ValueError as ex:
+            return []
 
-    lines_overview = lines_between("Mission Overview:", "Situation: ")
-    lines_situation = lines_between("Situation: ", "Pilot Roster:")
-    lines_roster = lines_between("Pilot Roster:", "Threat Analysis:")
+
+    #lines_overview = lines_between("Mission Overview:", "Situation: ")
+    #lines_situation = lines_between("Situation: ", "Pilot Roster:")
+    #lines_roster = lines_between("Pilot Roster:", "Threat Analysis:")
     lines_threat = lines_between("Threat Analysis:", "Steerpoints:")
-    lines_steerpoints = lines_between("Steerpoints:", "Comm Ladder:")
+    #lines_steerpoints = lines_between("Steerpoints:", "Comm Ladder:")
     lines_comms = lines_between("Comm Ladder:", "Iff")
-    lines_iff = lines_between("Iff", "Ordnance:")
-    lines_ordnance = lines_between("Ordnance:", "Weather:")
-    lines_weather = lines_between("Weather:", "Support:")
-    lines_support = lines_between("Support:", "Rules of Engagement:")
-    lines_roe = lines_between("Rules of Engagement:", "Emergency Procedures:")
-    lines_emergency = lines_between("Emergency Procedures:", "END_OF_BRIEFING")
+    #lines_iff = lines_between("Iff", "Ordnance:")
+    #lines_ordnance = lines_between("Ordnance:", "Weather:")
+    #lines_weather = lines_between("Weather:", "Support:")
+    #lines_support = lines_between("Support:", "Rules of Engagement:")
+    #lines_roe = lines_between("Rules of Engagement:", "Emergency Procedures:")
+    #lines_emergency = lines_between("Emergency Procedures:", "END_OF_BRIEFING")
     for line in lines_comms:
         if "Dep Atis:" in line:
             pb['field_departure'] = line.split('\t')[2].replace('ATIS', '').strip()
